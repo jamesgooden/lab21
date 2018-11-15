@@ -18,7 +18,7 @@ private Person p;
 	@RequestMapping("/")
 	public ModelAndView index() {
 		
-		ModelAndView mv = new ModelAndView("index" , "firstPage" , "Welcome to Jimmys Coffee Shop");
+		ModelAndView mv = new ModelAndView("index" , "firstPage" , "");
 	//mv.addObject("imageTest" ,"file:///Users/jb/Downloads/aroma-aromatic-beans-531754.jpg");
 		return mv;
 		
